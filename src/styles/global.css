@@ -5,6 +5,7 @@
   --primary-color: #548e9b;
   --font-family-serif: Merriweather, serif;
   --font-family-sans: 'Fira Sans', sans-serif;
+  --code-color: #555;
 }
 
 :root.theme-dark {
@@ -12,6 +13,7 @@
   --text-main: #fff;
   --text-secondary: #ccc;
   --primary-color: #548e9b;
+  --code-color: #81a1c1;
 }
 
 html {
@@ -140,7 +142,7 @@ hr {
 code {
   font-family: 'SF Mono', menlo, inconsolata, monospace;
   font-size: calc(1em - 2px);
-  color: #555;
+  color: var(--code-color);
   padding: 0.2em 0.4em;
   border-radius: 2px;
   -webkit-font-smoothing: antialiased;
